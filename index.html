@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciro Casoria - Portfolio Sviluppatore Web</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <h2>Ciro Casoria</h2>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Chi Sono</a></li>
+                <li><a href="#projects">Progetti</a></li>
+                <li><a href="#skills">Competenze</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Ciao, sono <span class="highlight">Ciro Casoria</span></h1>
+            <p class="hero-subtitle">Junior Developer</p>
+            <p class="hero-description">Questa pagina web è una pagina di benvenuto per opportunità lavorativa</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">Vedi i Progetti</a>
+                <a href="#contact" class="btn btn-secondary">Contattami</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <div class="code-animation">
+                <div class="code-line"></div>
+                <div class="code-line"></div>
+                <div class="code-line"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Chi Sono</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Sono in ricerca di opportunità lavorativa, questo è il mio sito web portfolio per dimostrare alle aziende chi sono e cosa so fare.</p>
+                    <p>Ho conseguito il diploma professionale presso l'I.S. Marconi nel 2019 e da allora ho continuato a formarmi come autodidatta, specializzandomi nello sviluppo web full-stack.</p>
+                    <div class="education">
+                        <h3><i class="fas fa-graduation-cap"></i> Formazione</h3>
+                        <ul>
+                            <li><strong>2019</strong> - Diploma Professionale I.S. Marconi</li>
+                            <li><strong>2021</strong> - Certificazione Responsive Web Design (freeCodeCamp)</li>
+                            <li><strong>Autodidatta</strong> - C++, PHP, MySQL, JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="about-stats">
+                    <div class="stat">
+                        <h3>3+</h3>
+                        <p>Progetti Completati</p>
+                    </div>
+                    <div class="stat">
+                        <h3>300+</h3>
+                        <p>Ore di Studio</p>
+                    </div>
+                    <div class="stat">
+                        <h3>100%</h3>
+                        <p>Dedizione</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">I Miei Progetti</h2>
+            <div class="projects-grid">
+                <!-- Mini Forum -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Mini Forum</h3>
+                        <p>Sistema di forum moderno e responsive sviluppato in PHP con MySQL. Include sistema di post e risposte, design responsive e sicurezza avanzata.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JavaScript</span>
+                            <span>CSS3</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://dreessy.github.io/portfolio_italian_mini_forum" target="_blank" class="btn btn-small">Demo Live</a>
+                            <a href="https://github.com/Dreessy/portfolio_italian_mini_forum" target="_blank" class="btn btn-small btn-outline">Codice</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Todo App -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Todo App</h3>
+                        <p>Applicazione per la gestione delle attività quotidiane con funzionalità CRUD complete, sistema di priorità e aggiornamenti in tempo reale.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>AJAX</span>
+                            <span>REST API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://dreessy.github.io/italian_todo_app" target="_blank" class="btn btn-small">Demo Live</a>
+                            <a href="https://github.com/Dreessy/italian_todo_app" target="_blank" class="btn btn-small btn-outline">Codice</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Sistema Login -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Sistema di Autenticazione</h3>
+                        <p>Sistema completo di login e registrazione con sicurezza avanzata, hash delle password, protezione SQL injection e design moderno.</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>Security</span>
+                            <span>GDPR</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://dreessy.github.io/italian_register_login_portfolio" target="_blank" class="btn btn-small">Demo Live</a>
+                            <a href="https://github.com/Dreessy/italian_register_login_portfolio" target="_blank" class="btn btn-small btn-outline">Codice</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Competenze Tecniche</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3><i class="fas fa-code"></i> Frontend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>HTML5</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>CSS3</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Responsive Design</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="90"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>PHP</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>MySQL</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>C++</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="75"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>REST API</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3><i class="fas fa-tools"></i> Strumenti</h3>
+                    <div class="skill-list">
+                        <div class="skill-item">
+                            <span>Git & GitHub</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>AJAX</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>PDO</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="85"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Security</span>
+                            <div class="skill-bar"><div class="skill-progress" data-width="80"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certification Section -->
+    <section class="certification">
+        <div class="container">
+            <h2 class="section-title">Certificazioni</h2>
+            <div class="cert-card">
+                <div class="cert-icon">
+                    <i class="fab fa-free-code-camp"></i>
+                </div>
+                <div class="cert-content">
+                    <h3>Responsive Web Design</h3>
+                    <p>freeCodeCamp - Marzo 2021</p>
+                    <p>Certificazione che rappresenta circa 300 ore di lavoro in HTML, CSS, Flexbox, Grid e design responsive.</p>
+                    <a href="https://www.freecodecamp.org/certification/fcc3292173b-9dc7-4ed6-b986-6fca39bc19d4/responsive-web-design" target="_blank" class="btn btn-small">Visualizza Certificato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contattami</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Sito web dedicato per le aziende per opportunitá lavorativa</h3>
+                    <p>Sono sempre interessato a nuove opportunità lavorative. Non esitare a contattarmi!</p>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>ciro062012@icloud.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Mugnano di Napoli, Italia</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/Dreessy" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Ciro Casoria. Tutti i diritti riservati.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
